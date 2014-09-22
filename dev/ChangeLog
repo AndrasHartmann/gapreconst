@@ -1,0 +1,82 @@
+2010-08-31  Andras Hartmann  <andras.hartmann@gmail.com>
+    * ctest: source extended with comments
+
+2010-08-30  Andras Hartmann  <andras.hartmann@gmail.com>
+    * ctest: removing signals where no information is only in the learning set
+
+2010-08-30  Andras Hartmann  <andras.hartmann@gmail.com>
+    * ctest: history functionality added (Was it not added before???)
+
+2010-08-30  Andras Hartmann  <andras.hartmann@gmail.com>
+    * checkit: to check the results
+    * functnames: updated to read all the results and Qs from qsc
+
+2010-08-29  Andras Hartmann  <andras.hartmann@gmail.com>
+    * qsa, qsb: computing sum estimated values of Qs
+    * ctest: yyy was saved till now instead of fff
+
+2010-08-29  Andras Hartmann  <andras.hartmann@gmail.com>
+    * functestb: detecting several signals with gaps as in functnamesc
+    * runctest: removes signals without information to reduce computational complexity
+
+2010-08-28  Andras Hartmann  <andras.hartmann@gmail.com>
+    * btests: trying to improve q1 with changing the std to the correct one in
+    the learning set
+    * functnamesc: for determining funcion names of dataset c
+    * ctests: removing filter from resp -> it is not applicable to all the
+    respiration data
+
+2010-08-28  Andras Hartmann  <andras.hartmann@gmail.com>
+    * ctests: added on the example of btests
+    * scripts: added run.slurm possibility to ctests
+
+2010-08-28  Andras Hartmann  <andras.hartmann@gmail.com>
+    * scripts: added run.slurm possibility to btests
+
+2010-08-28  Andras Hartmann  <andras.hartmann@gmail.com>
+    * btests: improving on the already made results by estimating it and only
+    save if the new results is better
+    * btests: limit of generations to 2000
+    * btests: possibility of only improving results over a specific score
+
+2010-08-21  Andras Hartmann  <andras.hartmann@gmail.com>
+    * btests: improving results
+
+2010-08-21  Andras Hartmann  <andras.hartmann@gmail.com>
+    * atests.m: random seed from the clock before running the tests
+    * genalg.m: reduced writing to std out
+
+2010-08-20  Andras Hartmann  <andras.hartmann@gmail.com>
+    * genalg.m: is a function now
+    * genalg.m: extended with comments
+    * filtval.m: obsoleted, use multifilter instead
+    * multifilter.m: function for the filter network
+    * atest.m: possibility to run in multithread
+    * runtest.m: passes back ff
+
+2010-08-18  Andras Hartmann  <andras.hartmann@gmail.com>
+    * notoolbox: directory with functions originated from toolboxes added
+
+2010-08-18  Andras Hartmann  <andras.hartmann@gmail.com>
+    * unidrnd.m: help / description
+    * runtest.m: cleaned up some empty lines
+
+2010-08-17  Andras Hartmann  <andras.hartmann@gmail.com>
+    * mse.m: simple mse function
+    * license.txt: license added
+
+2010-06-29  Andras Hartmann  <andras.hartmann@gmail.com>
+    * btests: for testing dataset b
+
+2010-06-29  Andras Hartmann  <andras.hartmann@gmail.com>
+    * Changelog: started to document changes
+    * runtest: reading function names
+    * runtest: removing average for better convergence of identification and
+    adding it later (std should be removed ad well?)
+    * runtest: checking for zero variance
+    * genalg: 3rd order filter instead of 2nd
+    * genalg: minimum and maximum limit check (commented out)
+    * genalg: some improvements in the random values for better convergence
+    * filtval: tried mean, but sum works better
+    * functnames: reading all the function names and plotting a graph
+    * atests: for testing the dataset a
