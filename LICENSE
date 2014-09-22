@@ -634,6 +634,13 @@ the "copyright" line and a pointer to where the full notice is found.
    GapReconst, reconstruction of physiological signals
     Copyright (C) 2010 Andras Hartmann
 
+    Please cite the following paper if you use this code for
+    scientific publishing:
+
+    Hartmann, A. (2010). Reconstruction of missing cardiovascular signals
+    using adaptive filtering. In Computing in Cardiology (CINC), Belfast,
+    Northern Ireland (Vol. 37, pp. 321–324).
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
